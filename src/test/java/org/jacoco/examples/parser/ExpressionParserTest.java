@@ -14,7 +14,10 @@ package org.jacoco.examples.parser;
 import java.io.IOException;
 import static org.junit.Assert.*;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.powermock.modules.junit4.PowerMockRunner;
 
+@RunWith(PowerMockRunner.class)
 public class ExpressionParserTest {
 
 	@Test
